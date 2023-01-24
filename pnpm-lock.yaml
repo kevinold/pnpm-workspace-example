@@ -14,23 +14,27 @@ importers:
       '@types/node': 18.11.18
       '@types/react': 18.0.27
       '@types/react-dom': 18.0.10
+      date-formatter-lib: workspace:*
       eslint: 8.32.0
       eslint-config-next: 13.1.3
       next: 13.1.3
       react: 18.2.0
       react-dom: 18.2.0
       typescript: 4.9.4
+      ui-shared: workspace:*
     dependencies:
       '@next/font': 13.1.3
       '@types/node': 18.11.18
       '@types/react': 18.0.27
       '@types/react-dom': 18.0.10
+      date-formatter-lib: link:../date-formatter-lib
       eslint: 8.32.0
       eslint-config-next: 13.1.3_7uibuqfxkfaozanbtbziikiqje
       next: 13.1.3_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       typescript: 4.9.4
+      ui-shared: link:../ui-shared
 
   packages/ui-shared:
     specifiers: {}
